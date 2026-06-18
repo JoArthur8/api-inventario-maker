@@ -16,6 +16,7 @@ estoque_laboratorio = [
     {"id": 1, "nome": "Arduino Sensor Shield", "quantidade": 15, "categoria": "Placas de Expansão", "estado_conservacao": "Novo"},
     {"id": 2, "nome": "Micro Servo Motor SG90", "quantidade": 42, "categoria": "Atuadores", "estado_conservacao": "Quebrado"},
     {"id": 3, "nome": "Esteira em Acrílico", "quantidade": 2, "categoria": "Mecânica", "estado_conservacao": "Usado"}
+
 ]
 
 # Rota Raiz
@@ -67,3 +68,5 @@ def remover_componente(componente_id: int):
             return {"mensagem": f"Componente com ID {componente_id} foi removido do estoque."}
 
     raise HTTPException(status_code=404, detail="Componente não encontrado no laboratório.")
+
+#Esqueci de colocar o título da aula no commit, apago isso depois
