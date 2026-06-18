@@ -70,3 +70,4 @@ def remover_componente(componente_id: int):
     raise HTTPException(status_code=404, detail="Componente não encontrado no laboratório.")
 
 #Esqueci de colocar o título da aula no commit, apago isso depois
+#Deu errado botar o nome do commit, sem querer botei o link   :<
